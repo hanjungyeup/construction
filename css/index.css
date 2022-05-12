@@ -1,9 +1,6 @@
 @charset "utf-8";
 
 /*font*/
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Roboto&family=Source+Sans+Pro&display=swap');
 
 /*reset*/
@@ -83,29 +80,12 @@ nav ul {
     z-index:10;
 }
 
-/* nav ul li {
-  
-} */
-
 nav ul li a {
     float:left;
     margin-right:25px;
     font-size:18px;
     line-height: 27px;
     color:#fff;
-}
-
-.heading_right {
-    position:absolute;
-    display:block;
-    width: 647px;
-    height:850px;
-    top:50px;
-    left:743px;
-    background:url(../img/millo-lin-Ep3NPU9Uhkw-unsplash\ 1.png) no-repeat;
-    background-size:contain;
-    border-radius: 5px 5px 5px 310px;
-    z-index: 7;
 }
 
 header .hero_heading {
@@ -132,32 +112,6 @@ header .hero_heading {
     line-height: 28px;
     font-weight: normal;
     color:#6B6B6B;
-}
-
-.heading_right_bottom1 {
-  position:absolute;
-  display:block;
-  width: 238px;
-  height: 213px;
-  left:646px;
-  top:147px;
-  background: #C9E7FF;
-  opacity: 0.4;
-  border-radius: 106.5px 5px 5px 5px;
-  z-index: 0;
-}
-
-.heading_right_bottom2 {
-  position:absolute;
-  display:block;
-  width: 238px;
-  height: 213px;
-  left:1126px;
-  top:770px;
-  background: #C9E7FF;
-  opacity: 0.4;
-  border-radius: 106.5px 5px 5px 5px;
-  transform: rotate(-180deg);
 }
 
 header .buttons {
@@ -214,16 +168,6 @@ header .buttons button:nth-of-type(2) a {
     color:#40A2D5;
   }
 
-.heading_left_bottom {
-  position: absolute;
-  width: 632.27px;
-  height: 608.43px;
-  left: 0;
-  top: 615px;
-  background: url(../img/Vector\ 11.png) no-repeat;
-  background-size:contain;
-  z-index:-10px;
-}
 
 .stats_icon_bg .orange{
   display:block;
@@ -232,7 +176,7 @@ header .buttons button:nth-of-type(2) a {
   height: 45.19px;
   top: 747.02px;
   left: 155px;
-  background: url(../img/Ellipse\ 739.png) no-repeat 0px 6px;
+  background: url(../img/icon_bg_orange.png) no-repeat 0px 6px;
   transform: rotate(0deg);
 }
 
@@ -243,7 +187,7 @@ header .buttons button:nth-of-type(2) a {
   height: 45.19px;
   top: 747.02px;
   left:341px;
-  background: url(../img/Ellipse\ 740.png) no-repeat 0px 6px;
+  background: url(../img/icon_bg_blue.png) no-repeat 0px 6px;
   transform: rotate(0deg);
 }
 
@@ -254,7 +198,7 @@ header .buttons button:nth-of-type(2) a {
   height: 45.19px;
   top: 747.02px;
   left: 541px;
-  background: url(../img/Ellipse\ 741.png) no-repeat 0px 6px;;
+  background: url(../img/icon_bg_green.png) no-repeat 0px 6px;;
   transform: rotate(0deg);
 }
 
@@ -306,6 +250,56 @@ header .buttons button:nth-of-type(2) a {
   left: 536px;
 }
 
+.heading_right {
+  position:absolute;
+  display:block;
+  width: 647px;
+  height:850px;
+  top:50px;
+  left:743px;
+  background:url(../img/heading_right_bg.png) no-repeat;
+  background-size:contain;
+  border-radius: 5px 5px 5px 310px;
+  z-index: 7;
+}
+
+.heading_right_bottom1 {
+  position:absolute;
+  display:block;
+  width: 238px;
+  height: 213px;
+  left:646px;
+  top:147px;
+  background: #C9E7FF;
+  opacity: 0.4;
+  border-radius: 106.5px 5px 5px 5px;
+  z-index: 0;
+}
+
+.heading_right_bottom2 {
+  position:absolute;
+  display:block;
+  width: 238px;
+  height: 213px;
+  left:1126px;
+  top:770px;
+  background: #C9E7FF;
+  opacity: 0.4;
+  border-radius: 106.5px 5px 5px 5px;
+  transform: rotate(-180deg);
+}
+
+.heading_left_bottom {
+  position: absolute;
+  width: 632.27px;
+  height: 608.43px;
+  left: 0;
+  top: 615px;
+  background: url(../img/heading_left_bottom_bg.png) no-repeat;
+  background-size:contain;
+  z-index:-10px;
+}
+
 .header_bottom .logos {
   position: absolute;
   width: 1170px;
@@ -314,6 +308,7 @@ header .buttons button:nth-of-type(2) a {
   top: 997px;
   background: #FAFAFA;
   border-radius: 150px;
+  z-index:10;
 }
 
 .logos ul {
@@ -438,7 +433,7 @@ header .buttons button:nth-of-type(2) a {
   position: absolute;
   width: 584px;
   height: 850px;
-  background: url(../img/image.png) no-repeat;
+  background: url(../img/section_img_bg.png) no-repeat;
   background-size:contain;
   border-radius: 10px 292px 10px 10px;
 }
@@ -449,12 +444,6 @@ header .buttons button:nth-of-type(2) a {
   height: 614px;
 }
 
-.content_right .right_01 {
-  position: absolute;
-  width: 498px;
-  height: 110px;
-}
-
 .content_right .content_img1 {
   position: absolute;
   width: 76px;
@@ -463,6 +452,12 @@ header .buttons button:nth-of-type(2) a {
   border-radius: 5px 38px;
   left: 787px;
   top: 1792px;
+}
+
+.content_right .right_01 {
+  position: absolute;
+  width: 498px;
+  height: 110px;
 }
 
 .content_right .right_01 strong {
@@ -590,7 +585,6 @@ header .buttons button:nth-of-type(2) a {
   left: 384px;
 }
 
-
 .section1_top strong {
   margin-bottom:30px;
   width: 514px;
@@ -640,7 +634,7 @@ header .buttons button:nth-of-type(2) a {
   height: 22px;
   margin-top:29px;
   margin-left:30px;
-  background:url(../img/Group\ 596.png) no-repeat;
+  background:url(../img/section1_middle_star.png) no-repeat;
   background-size: contain;
   cursor:pointer;
 }
@@ -652,7 +646,7 @@ header .buttons button:nth-of-type(2) a {
   height: 22px;
   margin-top:30px;
   margin-left:327px;
-  background:url(../img/Group.png) no-repeat;
+  background:url(../img/section1_middle_dot.png) no-repeat;
   background-size: contain;
   cursor:pointer;
 }
@@ -666,7 +660,7 @@ header .buttons button:nth-of-type(2) a {
   margin-left:121px;
   width: 120px;
   height: 120px;
-  background: url(../img/Ellipse\ 752.png);
+  background: url(../img/section1_middle_engineer1.png);
   background-size: contain;
 }
 
@@ -752,7 +746,7 @@ header .buttons button:nth-of-type(2) a {
   height: 22px;
   margin-top:29px;
   margin-left:30px;
-  background:url(../img/Group\ 596.png) no-repeat;
+  background:url(../img/section1_middle_star.png) no-repeat;
   background-size: contain;
   cursor:pointer;
 }
@@ -763,7 +757,7 @@ header .buttons button:nth-of-type(2) a {
   height: 22px;
   margin-top:30px;
   margin-left:327px;
-  background:url(../img/Group.png) no-repeat;
+  background:url(../img/section1_middle_dot.png) no-repeat;
   background-size: contain;
   cursor:pointer;
 }
@@ -777,7 +771,7 @@ header .buttons button:nth-of-type(2) a {
   margin-left:121px;
   width: 120px;
   height: 120px;
-  background: url(../img/Ellipse\ 7521.png);
+  background: url(../img/section1_middle_engineer2.png);
   background-size: contain;
 }
 
@@ -863,7 +857,7 @@ header .buttons button:nth-of-type(2) a {
   height: 22px;
   margin-top:29px;
   margin-left:30px;
-  background:url(../img/Group\ 596.png) no-repeat;
+  background:url(../img/section1_middle_star.png) no-repeat;
   background-size: contain;
   cursor:pointer;
 }
@@ -874,7 +868,7 @@ header .buttons button:nth-of-type(2) a {
   height: 22px;
   margin-top:30px;
   margin-left:327px;
-  background:url(../img/Group.png) no-repeat;
+  background:url(../img/section1_middle_dot.png) no-repeat;
   background-size: contain;
   cursor:pointer;
 }
@@ -888,7 +882,7 @@ header .buttons button:nth-of-type(2) a {
   margin-left:121px;
   width: 120px;
   height: 120px;
-  background: url(../img/Ellipse\ 7522.png);
+  background: url(../img/section1_middle_engineer3.png);
   background-size: contain;
 }
 
@@ -982,7 +976,7 @@ header .buttons button:nth-of-type(2) a {
   margin-left:20px;
   width: 20px;
   height: 20px;
-  background:url(../img/Icon_left.png) no-repeat;
+  background:url(../img/arrow_btn_left.png) no-repeat;
   background-size: contain;
   cursor:pointer;
   /* border:1px solid #000; */
@@ -1010,12 +1004,11 @@ header .buttons button:nth-of-type(2) a {
   margin-left:77px;
   width: 20px;
   height: 20px;
-  background:url(../img/Icon_right.png) no-repeat;
+  background:url(../img/arrow_btn_right.png) no-repeat;
   background-size: contain;
   cursor:pointer;
   /* border:1px solid #000; */
 }
-
 
 .section2 {
   display:block;
@@ -1024,7 +1017,7 @@ header .buttons button:nth-of-type(2) a {
   height: 939px;
   left: 0px;
   top: 3554px;
-  background:url(../img/Rectangle\ 4307.png) no-repeat;
+  background:url(../img/section2_bg.png) no-repeat;
   background-size: contain;
 }
 
@@ -1055,7 +1048,7 @@ header .buttons button:nth-of-type(2) a {
   top:0px;
   margin-top:238px;
   margin-left:201px;
-  background:url(../img/“.png) no-repeat;
+  background:url(../img/section2_quotation1.png) no-repeat;
   background-size: contain;
 }
 
@@ -1084,7 +1077,7 @@ header .buttons button:nth-of-type(2) a {
   top:0px;
   margin-top:638px;
   margin-left:1149px;
-  background:url(../img/“2.png) no-repeat;
+  background:url(../img/section2_quotation2.png) no-repeat;
   background-size: contain;
 }
 
@@ -1278,7 +1271,6 @@ header .buttons button:nth-of-type(2) a {
   color: #FAFAFA;
 }
 
-
 .section_right {
   position: absolute;
   left: 658px;
@@ -1291,9 +1283,21 @@ header .buttons button:nth-of-type(2) a {
 .section_right .world_map {
   width: 782.45px;
   height: 500.1px;
-  background: url(../img/MAP.png) no-repeat;
+  background: url(../img/section_right_worldmap.png) no-repeat;
   background-size:contain;
   z-index:-1;
+}
+
+.world_map .Australia_tri {
+  position: absolute;
+  width: 18.74px;
+  height: 11.23px;
+  margin-top:9.01px;
+  margin-left:254.21px;
+  background: #FAFAFA;
+  border-radius: 1px;
+  transform: rotate(180deg);
+  /* border:1px solid #000; */
 }
 
 .section3 .Australia {
@@ -1314,61 +1318,12 @@ header .buttons button:nth-of-type(2) a {
   height: 51.18px;
   margin-top:8.11px;
   margin-left:9.37px;
-  background: url(../img/Ellipse\ 4.png) no-repeat;
+  background: url(../img/section3_australia.png) no-repeat;
   background-size:contain;
   box-sizing: border-box;
 }
 
 .Australia p {
-  position: absolute;
-  width: 40.08px;
-  height: 12.4px;
-  margin-top:26.7px;
-  margin-left:65.85px;
-  font-family: 'Circular Std';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 10.4709px;
-  line-height: 13px;
-  color: #313131;
-}
-
-.world_map .Australia_tri {
-  position: absolute;
-  width: 18.74px;
-  height: 11.23px;
-  margin-top:9.01px;
-  margin-left:254.21px;
-  background: #FAFAFA;
-  border-radius: 1px;
-  transform: rotate(180deg);
-  /* border:1px solid #000; */
-  }
-
-.section3 .Grmany {
-  position: absolute;
-  width: 120.24px;
-  height: 66.76px;
-  left: 670.66px;
-  top:335.13px;
-  background: #FFFFFF;
-  border-radius: 3.27217px;
-  /* border:1px solid #000; */
-}
-
-.section3 .Grmany span {
-  display:block;
-  position: absolute;
-  width: 51.21px;
-  height: 51.18px;
-  margin-top:8.11px;
-  margin-left:9.37px;
-  background: url(../img/Ellipse\ 5.png) no-repeat;
-  background-size:contain;
-  box-sizing: border-box;
-}
-
-.Grmany p {
   position: absolute;
   width: 40.08px;
   height: 12.4px;
@@ -1392,32 +1347,32 @@ header .buttons button:nth-of-type(2) a {
   border-radius: 1px;
   transform: rotate(180deg);
   /* border:1px solid #000; */
-  }
+}
 
-.section3 .Pakistan {
+.section3 .Grmany {
   position: absolute;
   width: 120.24px;
   height: 66.76px;
-  left: 972.21px;
-  top:498.22px;
+  left: 670.66px;
+  top:335.13px;
   background: #FFFFFF;
   border-radius: 3.27217px;
   /* border:1px solid #000; */
 }
 
-.section3 .Pakistan span {
+.section3 .Grmany span {
   display:block;
   position: absolute;
   width: 51.21px;
   height: 51.18px;
   margin-top:8.11px;
   margin-left:9.37px;
-  background: url(../img/Ellipse\ 6.png) no-repeat;
+  background: url(../img/section3_grmany.png) no-repeat;
   background-size:contain;
   box-sizing: border-box;
 }
 
-.Pakistan p {
+.Grmany p {
   position: absolute;
   width: 40.08px;
   height: 12.4px;
@@ -1437,6 +1392,55 @@ header .buttons button:nth-of-type(2) a {
   height: 11.23px;
   margin-top:231.22px;
   margin-left:319.94px;
+  background: #FAFAFA;
+  border-radius: 1px;
+  transform: rotate(180deg);
+  /* border:1px solid #000; */
+}
+
+.section3 .Pakistan {
+  position: absolute;
+  width: 120.24px;
+  height: 66.76px;
+  left: 972.21px;
+  top:498.22px;
+  background: #FFFFFF;
+  border-radius: 3.27217px;
+  /* border:1px solid #000; */
+}
+
+.section3 .Pakistan span {
+  display:block;
+  position: absolute;
+  width: 51.21px;
+  height: 51.18px;
+  margin-top:8.11px;
+  margin-left:9.37px;
+  background: url(../img/section3_pakistan.png) no-repeat;
+  background-size:contain;
+  box-sizing: border-box;
+}
+
+.Pakistan p {
+  position: absolute;
+  width: 40.08px;
+  height: 12.4px;
+  margin-top:26.7px;
+  margin-left:65.85px;
+  font-family: 'Circular Std';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10.4709px;
+  line-height: 13px;
+  color: #313131;
+}
+
+.world_map .Brazil_tri {
+  position: absolute;
+  width: 18.74px;
+  height: 11.23px;
+  margin-top:298.94px;
+  margin-left:232.27px;
   background: #FAFAFA;
   border-radius: 1px;
   transform: rotate(180deg);
@@ -1461,7 +1465,7 @@ header .buttons button:nth-of-type(2) a {
   height: 51.18px;
   margin-top:8.11px;
   margin-left:9.37px;
-  background: url(../img/Ellipse\ 7.png) no-repeat;
+  background: url(../img/section3_brazil.png) no-repeat;
   background-size:contain;
   box-sizing: border-box;
 }
@@ -1480,17 +1484,17 @@ header .buttons button:nth-of-type(2) a {
   color: #313131;
 }  
 
-.world_map .Brazil_tri {
-position: absolute;
-width: 18.74px;
-height: 11.23px;
-margin-top:298.94px;
-margin-left:232.27px;
-background: #FAFAFA;
-border-radius: 1px;
-transform: rotate(180deg);
-/* border:1px solid #000; */
-}
+.world_map .Canada_tri {
+  position: absolute;
+  width: 18.74px;
+  height: 11.23px;
+  margin-top:366.65px;
+  margin-left:698.92px;
+  background: #FAFAFA;
+  border-radius: 1px;
+  transform: rotate(180deg);
+  /* border:1px solid #000; */
+  }
 
 .section3 .Canada {
   position: absolute;
@@ -1510,7 +1514,7 @@ transform: rotate(180deg);
   height: 51.18px;
   margin-top:8.11px;
   margin-left:9.37px;
-  background: url(../img/Ellipse\ 8.png) no-repeat;
+  background: url(../img/section3_canada.png) no-repeat;
   background-size:contain;
   box-sizing: border-box;
 }
@@ -1528,18 +1532,6 @@ transform: rotate(180deg);
   line-height: 13px;
   color: #313131;
 }  
-
-.world_map .Canada_tri {
-position: absolute;
-width: 18.74px;
-height: 11.23px;
-margin-top:366.65px;
-margin-left:698.92px;
-background: #FAFAFA;
-border-radius: 1px;
-transform: rotate(180deg);
-/* border:1px solid #000; */
-}
 
 .section4 {
   position: absolute;
@@ -1589,7 +1581,7 @@ transform: rotate(180deg);
   height: 467px;
   left: 155px;
   margin-top:80px;
-  background: url(../img/Img-2.png) no-repeat;
+  background: url(../img/section4_left_bg.png) no-repeat;
   mix-blend-mode: normal;
   border-radius: 20px;
 }
@@ -1621,7 +1613,6 @@ transform: rotate(180deg);
   color: #FFFFFF;
 }
 
-
 .section4_middle .section4_middle_right {
   display:block;
   position: absolute;
@@ -1629,7 +1620,7 @@ transform: rotate(180deg);
   height: 467px;
   left: 711px;
   margin-top:80px;
-  background: url(../img/Img-3.png) no-repeat;
+  background: url(../img/section4_right_bg.png) no-repeat;
   mix-blend-mode: normal;
   border-radius: 20px;
 }
@@ -1756,7 +1747,7 @@ footer .footer_top {
   left: 777px;
   margin-top:25px;
   display:block;
-  background:url(../img/btn_Icon.png) no-repeat;
+  background:url(../img/footertop_btn_right.png) no-repeat;
   background-size:contain;
   /* border:1px solid #000; */
 }
